@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+body>div {
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    margin: -150px 0 0 -225px;
+    border-radius: 5px;
+}
+h2, h3 {
+    margin: 12px 0 0 16px;
+    display: inline-block;
+}
+#timer {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    background-color: rgba(157, 157, 212, 0.205);
+    border: .6px solid rgba(169, 169, 231, 0.438);
+    border-radius: 4px;
+}
+#timer>p{
+    margin: 2px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px;
+}
+input[type="text"], #Asks>button {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: rgba(157, 157, 212, 0.205);
+    border: .5px solid rgba(169, 169, 231, 0.438);
+    border-radius: 2px;
+    box-sizing: border-box; 
+}
+
+input[type="text"], #Asks>button:not(last-child) {
+    margin-bottom: 8px;
+}
+#Asks button>p {
+    margin: auto;
+    text-align: left;
+}
+#Asks {
+    margin-top: 10px;
+    border-top: 1.6px ridge  rgba(157, 157, 212, 0.438);
+    border-bottom: 1.8px ridge  rgba(82, 82, 83, 0.438);
+}
+
+
+#quiz>p {
+    position: absolute;
+    margin: 0;
+    bottom: 17.5px;
+    left: 12px;
+}
+#nextButtons {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+#nextButtons button {
+    background-color: rgb(73, 73, 255);
+    padding: 5px;
+
+    border: .6px solid rgba(69, 69, 156, 0.637);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+#nextButtons button:last-child {
+    margin-left: 2px;
+}
+#Asks>button.True {
+    background-color: rgba(52, 122, 52, 0.205);
+    border: .5px solid rgba(50, 185, 50, 0.438);
+}
+#Asks>button.False {
+    background-color: rgba(185, 39, 39, 0.205);
+    border: .5px solid rgba(160, 38, 38, 0.144);
+}
+
+.Answers {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
